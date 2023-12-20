@@ -13,7 +13,7 @@ body {
 section {
     margin: auto;
     background-color: rgb(247,253,252);
-    width: 55%;
+    width: 59%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -22,7 +22,7 @@ section {
     display: flex;
     flex-direction: column;
     margin-block-start: 170px;
-    margin-inline-start: 85px;
+    margin-inline-start: 75px;
     gap: 10px;
 }
 img {
