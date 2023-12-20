@@ -1,0 +1,213 @@
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(229,229,229);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   
+}
+section {
+    margin: auto;
+    background-color: rgb(247,253,252);
+    width: 55%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.right{
+   
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 170px;
+    margin-inline-start: 85px;
+    gap: 10px;
+}
+img {
+    height: 60px;
+    margin-bottom: 8px;
+}
+#webtext, #mobiletext {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.5);
+}
+#mobiletext {
+    display: none;
+}
+h1 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 27px;
+    letter-spacing: -0.5px;
+    color: rgba(0, 0, 40, 0.8);
+    
+}
+.left {
+    background-color: white;
+    margin:40px 80px 40px 0;
+    box-shadow: 2px 1px 20px 2px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.block {
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    margin-block-end: 20px;
+    
+}
+.block1 {
+    margin-block-end: 20px;
+   
+}
+select {  
+    padding-inline-start: 10px;
+    padding-block-end: 10px;
+    padding-block-start: 9.5px; 
+    width: 100%;
+    color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    outline-color: rgb(45,196,182);
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: white;
+    margin-block-start: 5px;
+ }
+
+ #level {
+    width: 100%;
+ }
+ input {
+    padding: 9px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    background-color: white;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.4);
+    outline-color: rgb(45,196,182);
+ }
+ label {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: -0.5px;
+    color: rgba(0, 0, 40, 0.8);
+ }
+ button {
+    background-color: rgb(45,196,182);
+    color: white;
+    width: 100%;
+    border: none;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 14px 0;
+    margin-block-end: 15px;
+    box-shadow: -2px 0px 20px 2px rgba(0, 0, 0, 0.1);
+ }
+ #birthday {
+    width: 100%;
+    border: none;
+ }
+ #password {
+    width: 100%;
+    border: none;
+ }
+ 
+ .pass, .birth {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    outline-color: rgb(45,196,182);
+    margin-block-start: 5px;
+ }
+ #icon {
+    color: rgba(0, 0, 0, 0.3);
+    transform: translateX(-24px);
+    position: absolute;
+    padding-block-start: 10px;
+    
+ }
+ ::placeholder {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+    background-color: white;
+ }
+ 
+.first, .gender, .weight {
+    margin-inline-end: 20px;
+    outline-color: rgb(45,196,182);
+}
+footer {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 1.0);
+    padding-inline-start: 20px; 
+}
+a {
+    color: rgb(45,196,182);
+}
+@media all and (min-width:200px) and (max-width:600px) {
+    section {
+        display: flex;
+        width: 84%;
+        flex-direction: column;
+        margin-block-start: 0;
+    }
+    .left {
+        margin: 0 25px 90px 25px;
+       
+    }
+    .block {
+        display: flex;
+        flex-direction: column;
+    }
+    .first, .gender, .weight {
+        margin-inline-end: 0px;
+        margin-block-end: 15px;
+       
+    }
+    .right {
+       margin: 60px 30px 40px 20px;
+    }
+    
+    #mobiletext {
+        font-size: 14px;
+        font-weight: 200;
+        display: block;
+    }
+    #webtext {
+    display: none;
+    }
+    
+}
+@media all and (min-width:601px) and (max-width:1000px) {
+    section {
+        width: 98%;
+        /* height: 68vh; */
+    }
+    .right {
+        margin-inline-start: 30px;
+        margin-inline-end: 10px;
+    }
+    .left {
+        margin-inline-end: 0;
+        margin-block-start: 14px;
+    }
+ }
+ @media all and (min-width: 1001px) and (max-width:1400px) {
+    section {
+        width: 82%;
+        
+    }
+}  
