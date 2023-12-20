@@ -66,8 +66,8 @@ h1 {
 }
 select {  
     padding-inline-start: 10px;
-    padding-block-end: 10px;
-    padding-block-start: 9.5px; 
+    padding-block-end: 8px;
+    padding-block-start: 9px; 
     width: 100%;
     color: rgba(0, 0, 0, 0.4);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -84,7 +84,7 @@ select {
     width: 100%;
  }
  input {
-    padding: 9px;
+    padding: 8px;
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 3px;
@@ -97,8 +97,8 @@ select {
  }
  label {
     font-family: Poppins;
-    font-weight: 600;
-    font-size: 11;
+    font-weight: 400;
+    font-size: 10px;
     letter-spacing: -0.5px;
     color: rgba(0, 0, 40, 0.8);
  }
