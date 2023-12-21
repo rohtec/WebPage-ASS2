@@ -21,7 +21,7 @@ section {
    
     display: flex;
     flex-direction: column;
-    margin-block-start: 200px;
+    margin-block-start: 185px;
     margin-inline-start: 75px;
     margin-inline-end:30px;
     gap: 10px;
